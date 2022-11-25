@@ -1,6 +1,5 @@
 import { useState } from "react";
 import $ from "jquery";
-import Button from 'react-bootstrap/Button';
 import {
   MDBContainer,
   MDBInput,
@@ -49,36 +48,30 @@ function App() {
 
   return (
     <div style={{margin:'10%'}}>
-      <h1>Sign In</h1>
+      <h1>Registration</h1>
 
-   <form action="http://localhost:3000/VMS" onSubmit={submitForm}>
+   <form action="http://localhost/insert.php" onSubmit={submitForm}>
 
     <MDBContainer className="p-3 my-5 d-flex flex-column w-50" >
 
       <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email' name="email"/>
       <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password' name="password"/>
+     
 
-      <div className="dflex justify-content-between mx-3 mb-4">
+      <div className="d-flex justify-content-between mx-3 mb-4">
         <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
         <a href="!#">Forgot password?</a>
-        
       </div>
-      
-      <Button type="submit" style = {{margin:'15px'}}variant="primary">Sign in</Button>{' '}
-      
+
+      <MDBBtn className="mb-4">Register</MDBBtn>
 
       <div className="text-center">
-        <Link to= "/register"><p>Not a member? <a >Register</a></p></Link>
-  
+        <Link to= "/login"><p>Already a member? <a >Sign in</a></p></Link>
+   
+
       </div>
 
-      
-
     </MDBContainer>
-
-
-      <button>Admin</button>
- 
     
    </form>
     </div>

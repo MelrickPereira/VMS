@@ -19,7 +19,7 @@ function NavScrollExample() {
             navbarScroll
           >
             
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action1" >Home</Nav.Link>
             <Nav.Link href="#action2">Cars</Nav.Link>
             <Nav.Link href="#action3">Trucks & Vans</Nav.Link>
 
@@ -27,8 +27,8 @@ function NavScrollExample() {
 
             <Nav.Link href="#action5">All Vehicles</Nav.Link>
           
-            <Nav.Link href="#action5">About Us</Nav.Link>
-            <Nav.Link href="#action5">Contact Us</Nav.Link>
+            <Nav.Link href="#action6">About Us</Nav.Link>
+            <Nav.Link href="#action7">Contact Us</Nav.Link>
             
             
             

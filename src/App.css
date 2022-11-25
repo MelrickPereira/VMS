@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-link
+{
+  font-weight: 550;
+    color: rgb(29, 98, 247);
+    font-size: 20px;
+}
