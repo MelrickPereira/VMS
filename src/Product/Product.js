@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Product.css'
-function BasicExample({img,title,description }) {
+function BasicExample() {
   return (
     <>
    

@@ -42,10 +42,11 @@ function NavScrollExample() {
             />
             <Button variant="outline-success">Search</Button>
           </Form>
-        </Navbar.Collapse>
-        <Link style={{textDecoration: 'none'}} to='/login' >
-        <Button  style={{margin:'0px 15px'}}>Sign in</Button>
+          <Link style={{textDecoration: 'none'}} to='/login' >
+        <Button  style={{margin:'15px 15px'}}>Sign in</Button>
         </Link>
+        </Navbar.Collapse>
+        
       </Container>
       
     </Navbar>
