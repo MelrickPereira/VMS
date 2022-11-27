@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VMS/static/css/main.7e24b2c1.css",
-    "main.js": "/VMS/static/js/main.9acc3eca.js",
+    "main.css": "/VMS/static/css/main.cf34ec91.css",
+    "main.js": "/VMS/static/js/main.31d1ee96.js",
     "static/js/787.65f71028.chunk.js": "/VMS/static/js/787.65f71028.chunk.js",
     "static/media/alfa-romeo-logo.png": "/VMS/static/media/alfa-romeo-logo.df4e0dc85bbdeb1adb52.png",
     "static/media/toyota-logo.png": "/VMS/static/media/toyota-logo.480857a573b164391255.png",
@@ -22,12 +22,12 @@
     "static/media/ferrari-logo.png": "/VMS/static/media/ferrari-logo.4983cfde2d4c33925633.png",
     "static/media/rolls-royce-logo.png": "/VMS/static/media/rolls-royce-logo.73766d16a1b8e6ff60d7.png",
     "index.html": "/VMS/index.html",
-    "main.7e24b2c1.css.map": "/VMS/static/css/main.7e24b2c1.css.map",
-    "main.9acc3eca.js.map": "/VMS/static/js/main.9acc3eca.js.map",
+    "main.cf34ec91.css.map": "/VMS/static/css/main.cf34ec91.css.map",
+    "main.31d1ee96.js.map": "/VMS/static/js/main.31d1ee96.js.map",
     "787.65f71028.chunk.js.map": "/VMS/static/js/787.65f71028.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e24b2c1.css",
-    "static/js/main.9acc3eca.js"
+    "static/css/main.cf34ec91.css",
+    "static/js/main.31d1ee96.js"
   ]
 }
