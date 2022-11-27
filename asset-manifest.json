@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/VMS/static/css/main.cca853c7.css",
-    "main.js": "/VMS/static/js/main.39b57815.js",
+    "main.css": "/VMS/static/css/main.7e24b2c1.css",
+    "main.js": "/VMS/static/js/main.9acc3eca.js",
     "static/js/787.65f71028.chunk.js": "/VMS/static/js/787.65f71028.chunk.js",
+    "static/media/alfa-romeo-logo.png": "/VMS/static/media/alfa-romeo-logo.df4e0dc85bbdeb1adb52.png",
+    "static/media/toyota-logo.png": "/VMS/static/media/toyota-logo.480857a573b164391255.png",
+    "static/media/lexus-logo.png": "/VMS/static/media/lexus-logo.02ae3c041d11d93cd0d4.png",
+    "static/media/lamborghini-logo.png": "/VMS/static/media/lamborghini-logo.2a2c29031752b26ea112.png",
+    "static/media/suzuki-logo.png": "/VMS/static/media/suzuki-logo.954df9c425e13e5d5b0e.png",
+    "static/media/peugeot-logo.png": "/VMS/static/media/peugeot-logo.b889b0e8bb96f7d14548.png",
+    "static/media/mazda-logo.png": "/VMS/static/media/mazda-logo.946de46dfaca57709c1e.png",
+    "static/media/mercedes-benz-logo.png": "/VMS/static/media/mercedes-benz-logo.26d4e27b88dc74d56112.png",
+    "static/media/bentley-logo.png": "/VMS/static/media/bentley-logo.d5cc3310f46bc54c783b.png",
+    "static/media/volvo-logo.png": "/VMS/static/media/volvo-logo.1d664d93e6a031f3a952.png",
+    "static/media/chevrolet-logo.png": "/VMS/static/media/chevrolet-logo.5d1964e0bfe71d264a31.png",
+    "static/media/bmw-logo.png": "/VMS/static/media/bmw-logo.a7e5389009ade87b3bf7.png",
+    "static/media/ford.png": "/VMS/static/media/ford.f7ff4f5ebd9c1728e1ed.png",
+    "static/media/volkswagen-logo.png": "/VMS/static/media/volkswagen-logo.db47eef7ddfbb532a8ba.png",
+    "static/media/jaguar-logo.png": "/VMS/static/media/jaguar-logo.8edc425e5d575d39fc31.png",
+    "static/media/aston-martin-logo.png": "/VMS/static/media/aston-martin-logo.926b57ba08d11c0f8a91.png",
+    "static/media/ferrari-logo.png": "/VMS/static/media/ferrari-logo.4983cfde2d4c33925633.png",
+    "static/media/rolls-royce-logo.png": "/VMS/static/media/rolls-royce-logo.73766d16a1b8e6ff60d7.png",
     "index.html": "/VMS/index.html",
-    "main.cca853c7.css.map": "/VMS/static/css/main.cca853c7.css.map",
-    "main.39b57815.js.map": "/VMS/static/js/main.39b57815.js.map",
+    "main.7e24b2c1.css.map": "/VMS/static/css/main.7e24b2c1.css.map",
+    "main.9acc3eca.js.map": "/VMS/static/js/main.9acc3eca.js.map",
     "787.65f71028.chunk.js.map": "/VMS/static/js/787.65f71028.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cca853c7.css",
-    "static/js/main.39b57815.js"
+    "static/css/main.7e24b2c1.css",
+    "static/js/main.9acc3eca.js"
   ]
 }
