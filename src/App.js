@@ -4,6 +4,7 @@ import Login from '../src/Login/Login'
 import About from '../src/About/About';
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import Register from './Login/Register';
+import Showroom from './Showroom/Showroom';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Route path="/VMS" element={<> <About /> </>} />
     <Route path="/login" element={<> <Login /> </>} />
     <Route path="/register" element={<> <Register /> </>} />
+    <Route path="/showroom" element={<> <Showroom /> </>} />
   
    
   </Routes>

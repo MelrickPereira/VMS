@@ -1,0 +1,26 @@
+.brand-list
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(171, 171, 171);
+    margin:  15px;
+    border-radius: 25px;
+}
+.brand{
+    background-color: rgb(253, 253, 253);
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s ease;
+    border: 2px solid black;
+}
+.brand:hover{
+    background-color: rgb(255, 254, 254);
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
