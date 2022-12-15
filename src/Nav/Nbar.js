@@ -43,8 +43,8 @@ function NavScrollExample() {
             <Button variant="outline-success">Search</Button>
           </Form>
           <Link style={{textDecoration: 'none'}} to='/login' >
-        <Button  style={{margin:'15px 15px'}}>Sign in</Button>
-        </Link>
+            <Button  style={{margin:'15px 15px',width:'100px'}}>Sign in</Button>
+           </Link>
         </Navbar.Collapse>
         
       </Container>

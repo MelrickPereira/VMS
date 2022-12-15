@@ -43,3 +43,27 @@
     color: rgb(29, 98, 247);
     font-size: 20px;
 }
+
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+}
+.nav-link {
+  font-weight: 550;
+  color: rgb(29, 98, 247);
+  font-size: 26px;
+  margin: auto;
+}
+

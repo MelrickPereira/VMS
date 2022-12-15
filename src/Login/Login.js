@@ -53,7 +53,7 @@ function App() {
 
    <form action="http://localhost:3000/VMS" onSubmit={submitForm}>
 
-    <MDBContainer className="p-3 my-5 d-flex flex-column " >
+    <MDBContainer className="p-3 my-5 d-flex flex-column w-25" >
 
       <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email' name="email"/>
       <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password' name="password"/>
@@ -65,6 +65,7 @@ function App() {
       </div>
       
       <Button type="submit" style = {{margin:'15px'}}variant="primary">Sign in</Button>{' '}
+      <Link to="/Admin"><button>Admin</button></Link> 
       
 
       <div className="text-center">
@@ -77,7 +78,7 @@ function App() {
     </MDBContainer>
 
 
-      <button>Admin</button>
+     
  
     
    </form>

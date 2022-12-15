@@ -22,6 +22,7 @@ import brand19 from './Brands/toyota-logo.png'
 import brand20 from './Brands/volkswagen-logo.png'
 import brand21 from './Brands/volvo-logo.png'
 import Product from "../Product/Product"
+import {Link} from 'react-router-dom';
 function Showroom() {
   return (
     <div >
@@ -33,7 +34,7 @@ function Showroom() {
         <img className = "brand" src={brand3} alt="d" />
         <img className = "brand" src={brand4} alt="d" />
         <img className = "brand" src={brand5} alt="d" />
-        <img className = "brand" src={brand6} alt="d" />
+        <Link to = "/showroom/bmw"><img className = "brand" src={brand6} alt="d" /></Link>
         <img className = "brand" src={brand7} alt="d" />
         <img className = "brand" src={brand8} alt="d" />
         <img className = "brand" src={brand9} alt="d" />

@@ -16,8 +16,11 @@ function App() {
   const [data,setData] = useState(
     {
 
-      email:"",
-      password:""
+      D_name:"",
+      D_id:"",
+      D_address:"",
+      D_phone:"",
+
     }
   )
 
@@ -31,8 +34,10 @@ function App() {
     const form = $(e.target);
     const send_data = 
     {
-      email: data.email,
-      password: data.password,
+      D_name: data.Dealer_Name,
+      D_id: data.Dealer_Id,
+      D_address: data.Dealer_Address,
+      D_phone: data.Phone_Number,
 
     }
     $.ajax({
@@ -48,28 +53,19 @@ function App() {
 
   return (
     <div >
-      <h1>Registration</h1>
+      <h1>Add Dealer </h1>
 
-   <form action="http://localhost/insert.php" onSubmit={submitForm}>
+   <form action="http://localhost/dealer_delete.php" onSubmit={submitForm}>
 
     <MDBContainer className="p-3 my-5 d-flex flex-column w-25" >
 
-      <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email' name="email"/>
-      <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password' name="password"/>
-     
+      <MDBInput wrapperClass='mb-4' label='Dealer Id' id='form2' type='Dealer_Id' name="Dealer_Id"/>
+    
+    
 
-      <div className="d-flex justify-content-between mx-3 mb-4">
-        <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
-        <a href="!#">Forgot password?</a>
-      </div>
+      <MDBBtn className="mb-4">Delete</MDBBtn>
 
-      <MDBBtn className="mb-4">Register</MDBBtn>
-
-      <div className="text-center">
-        <Link to= "/login"><p>Already a member? <a >Sign in</a></p></Link>
-   
-
-      </div>
+      
 
     </MDBContainer>
     
